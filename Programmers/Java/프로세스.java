@@ -12,7 +12,6 @@ public class 프로세스 {
             for (int p : priorities) {
                 q.offer(p);
             }
-
             while (!q.isEmpty()) {
                 if (q.peek() != Collections.max(q)) {
                     if (location == 0) {
